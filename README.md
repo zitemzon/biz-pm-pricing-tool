@@ -39,3 +39,13 @@
 pip install openpyxl
 python3 build_pm_pricing_tool.py
 ```
+
+---
+
+## ที่มา
+
+เดิมอยู่เป็นโฟลเดอร์ `pm-pricing-tool/` ใน branch ของ repo `tsp-wheel` (กิจกรรมหมุนวงล้อ)
+แยกออกมาเป็นโปรเจกต์ของตัวเองพร้อมประวัติ commit เดิมครบ และย้ายไฟล์ขึ้นมาไว้ที่ root
+
+เครื่องมือนี้ป้อนตัวเลขให้ชีต `F_SERVICE` ของ [`biz-roi-laundromat`](https://github.com/zitemzon/biz-roi-laundromat)
+— แก้ราคาแพ็กเกจที่นี่แล้วอย่าลืมไปปรับที่นั่นด้วย
